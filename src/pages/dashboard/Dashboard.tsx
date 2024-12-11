@@ -8,7 +8,7 @@ const Dashboard = () => {
     return (
         <>
             {/* Header Navigation */}
-            <div className="w-full h-[70px] md:w-[calc(100%-250px)] absolute top-0 left-0 md:left-[250px] bg-white py-2 px-4">
+            <div className="w-full h-[70px] md:w-[calc(100%-250px)] absolute top-0 left-0 md:left-[250px] flex justify-center items-center bg-white py-2 px-4">
                 <Navigation />
             </div>
 
