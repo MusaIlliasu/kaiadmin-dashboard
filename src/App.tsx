@@ -5,6 +5,9 @@ import Main from "./pages/dashboard/main/Main";
 import Metering from "./pages/dashboard/metering/Metering";
 import Taxing from "./pages/dashboard/taxing/Taxing";
 import Billing from "./pages/dashboard/billing/Billing";
+// import FlatList from "./pages/flatList/FlatList";
+import DataFetching from "./pages/dataFetching/DataFetching";
+// import UsersComponent from "./pages/users/UsersComponent";
 
 const App = () => {
 
@@ -13,6 +16,11 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+
+          {/* Users */}
+          {/* <Route path="/users" element={<UsersComponent />} /> */}
+          <Route path="/users" element={<DataFetching />} />
+          {/* <Route path="/users" element={<FlatList />} /> */}
 
           {/* Dashboard */}
           <Route path="/dashboard" element={<Dashboard />}>
